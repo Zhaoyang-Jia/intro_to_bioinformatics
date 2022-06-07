@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Link Page</title>
+		<title>About</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -58,34 +58,67 @@
 					<div class="container">
 						<article id="main" class="special">
 							<header>
-								<h2 style="text-align:left">Link Page</a></h2>
+								<h2 style="text-align:left; font-size: 38px;">About</a></h2>
 							</header>
-							<p>
-								<br>
-								<style> 
-									h1{text-align: left;}
-								</style>
-								<h1>
-									<b> NIH. (2021). <i>The cost of sequencing a human genome.</i> Genome.gov. from <a href="https://www.genome.gov/about-genomics/fact-sheets/Sequencing-Human-Genome-cost">https://www.genome.gov/about-genomics/fact-sheets/Sequencing-Human-Genome-cost</a> </b>
-								</h1>
-								<br> This is a cost analysis published by the National Institute of Health in 2021. The major conclusion is in the past two decades,
-								the cost of sequence DNA information has been reduced by more than 10000-fold. This is a drastic decrease in cost even when compared
-								to the booming computer industry, for which during the same time period, the personal/industrial computing power's cost only decreased by about 
-								100-fold. The NIH also projected the cost of sequencing is going to further decrease in a similar trend. With this steep decrease in cost, the NIH
-								argued that research capability and private sector activities shall continue to expand in the near decade.
-							</p>
+							<style> 
+								h1{text-align: left; font-size: 20px; line-height: 1.75;}
+							</style>
 							<br>
-							<p>
-								<h1>
-									<b> U.S. Bureau of Labor Statistics. (2022, April 18). <i>Computer and Information Research Scientists : Occupational outlook handbook.</i> from <a href="https://www.bls.gov/ooh/computer-and-information-technology/computer-and-information-research-scientists.htm">https://www.bls.gov/ooh/computer-and-information-technology/computer-and-information-research-scientists.htm</a>  </b>
-								</h1>
-								<br> According to the most recent US Bureau of Labor Statistics, bioinformaticians belong to the subcategory of "Computer and 
-								Information Research Scientists". This group of people enjoy an average annual salary of $131,490, which is significantly higher
-								than the average income of $58,260. This wage is also higher than the average molecular biology researchers at $102,270. (Both 
-								data gathered at the same site) Moreover, the occupation of bioinformaticians has a master degree as the typical "entry-level of 
-								education", which is lower than the phD required for other research-oriented occupations. The job outlook in the next decade sees
-								a staggering 22% growth, which is among the top growing job sectors.
-							</p>
+							<h1>
+								<p>
+									This website is a brief introduction to the field of bioinformatics, specifically made for those who are in or planning to go into a typical, non-computational 
+									biology major. 
+								</p>
+								<img src="images/jimmy_photo.png" align="right" width="210" style="margin: 0px 30px 0px 80px"><p>
+									I am Zhaoyang Jia, the author of this webpage. I am an undergraduate 
+									student at UC San Diego, pursuing a double major between Molecular and Cell Biology, and Mathematics-Computer Science. I have a strong interest 
+									in both the wet-lab focused molecular biology and the computationally heavy bioinformatics. I have work experience in both types of labs, and have met 
+									groups of highly talented individuals from both disciplines. My goal for making this website is to advocate bioinformatics, a newly arisen field with 
+									great future potential. I hope the readers, who have the necessary biology background, when deciding their future careers or advising their friends, 
+									can acknowledge bioinformatics as a lucrative option.
+								</p>
+								<br>
+								<header>
+									<h2 style="text-align:left; font-size: 38px;">Background of Bioinformatics</a></h2>
+								</header>
+								<br>
+								<img src="images/intersection.png" align="left" width="320" style="margin: 30px 20px 0px 10px"><p>
+									Bioinformatics is also called computational biology, and it is the intersection of biology, statistics, and computer science. 
+									Computer scientists cannot work 
+									directly on biological data because vast biology background knowledge is needed to extract any meaningful information.
+									Similarly, for us who come from the biology background, we need to gain the necessary baseline knowledge in computer science 
+									in order to take on the tasks of bioinformatics. Fortunately, typical bioinformatics careers are mostly biology-oriented rather
+									than computer-science-oriented, so there is siginficantly less to pick up about computer science relative to the knowledge we 
+									already have in biology. In later pages, I will guide us through the potential career choices and where to start off on learning programing.
+								</p>
+								<p>
+									The field of bioinformatics emerged about twenty years ago, as a product of the Human Genome Project. Ever since, the field has been continuously accelerating,
+									supported by the significant decrease in sequencing cost and computing power. Beknown to most, the information era was fueled by the decrease in computing power, which is outlined 
+									by the Moore's law: such that since 2007, the cost of transistors have decreased about 100-fold. However, in comparison, there is an even more extremely decrease in the cost of 
+									generating biology data. For example, the DNA sequencing cost has decreased by 10,000-fold 
+									since 2007. Coupling with the already cheap computing power, the field of bioinformatics boomed.
+									(<a href="https://www.genome.gov/about-genomics/fact-sheets/Sequencing-Human-Genome-cost">NIH 2021</a>).
+								</p>
+								<center>
+									<img src="images/genome_cost.jpg" width="800" style="margin: 20px 0px 20px 0px">
+								</center>
+								<p>
+									With the much more available data and computing power, data can be generated and analyzed at rates that are unimaginable even compared to ten years
+									 ago. A typical 3 minute, high-fidelity song can be as big as 0.01 GB, whereas a genome data file is typically 150GB in size. Moreover, we generate 
+									 hundreds of genomes data files at a time using the automated machinery that were invented in the last decade. These ultra-large data files cannot be manually 
+									 analyzed, and automatic pipelines need to be built to critically extract useful information from them. Since the generation of these data from wet lab is cheap 
+									 and easy, many labs have adopted modern instruments to generate huge outflux of data. The volume of data has determined that even on powerful server clusters, 
+									 the analysis would take days. Therefore, it is utmost important to develop techniques to efficiently and effectively analyze biological data.
+								</p>
+								<center>
+									<img src="images/bottleneck.png" width="700" style="margin: 20px 0px 20px 0px">
+								</center>
+								<p>
+									The current 
+									bottleneck in biological research has shifted from data generation to data analysis; thus, there is a great vacancy for bioinformaticians, and this gap is 
+									likely to widen as the data generation further develops.
+								</p>
+							</h1>
 						</article>
 						<hr />
 					</div>
